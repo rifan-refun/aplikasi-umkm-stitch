@@ -1,0 +1,6 @@
+{
+  "name": "SmartUMKM",
+  "description": "Sistem Pembukuan dan Pelacakan Kas Harian untuk UMKM. Fitur include input kas manual/keypad, pemantauan laci kas tutupan buku, manajemen draf pengeluaran dengan suara, dan perbandingan rekam vs kebocoran kas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

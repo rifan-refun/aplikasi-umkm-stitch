@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display-numpad: "Inter", sans-serif;
+  --font-headline-lg: "Inter", sans-serif;
+  --font-headline-lg-mobile: "Inter", sans-serif;
+  --font-headline-md: "Inter", sans-serif;
+
+  /* Elegant Dark Color Overrides */
+  --color-background: #09090b;
+  --color-on-background: #f4f4f5;
+  --color-surface: #0c0c0e;
+  --color-on-surface: #f4f4f5;
+  --color-on-surface-variant: #a1a1aa;
+  
+  --color-outline: #3f3f46;
+  --color-outline-variant: #27272a;
+  
+  --color-surface-container-lowest: #18181b;
+  --color-surface-container-low: #121214;
+  --color-surface-container: #202023;
+  --color-surface-container-high: #27272a;
+  --color-surface-container-highest: #2d2d30;
+  --color-surface-bright: #121214;
+  
+  /* Bright Blue Accent */
+  --color-primary: #3b82f6;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2563eb;
+  --color-on-primary-container: #ffffff;
+  --color-inverse-primary: #93c5fd;
+
+  /* Rose Red for Leakage / Low state Warnings */
+  --color-secondary: #f43f5e;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #27272a;
+  --color-on-secondary-container: #f4f4f5;
+  
+  /* Slate Tones */
+  --color-tertiary: #52525b;
+  --color-on-tertiary: #ffffff;
+  
+  /* Fixed states for light badges */
+  --color-primary-fixed: #60a5fa;
+  --color-primary-fixed-dim: #93c5fd;
+  --color-on-primary-fixed: #09090b;
+
+  --color-error: #ef4444;
+  --color-on-error: #ffffff;
+  --color-error-container: #450a0a;
+  --color-on-error-container: #fca5a5;
+}
+
+/* Custom styled draft lists diagonal background helper */
+.draft-diagonal-bg {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(109, 122, 119, 0.05) 10px, rgba(109, 122, 119, 0.05) 20px);
+}
+
+/* Hide scrollbars for swift swipe actions lists */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
